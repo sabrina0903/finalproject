@@ -1,0 +1,60 @@
+/* background color */
+body{
+    background-color: rgb(235, 207, 233);
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*bullet points*/
+li{font-size: 16px;
+        font-style: italic;
+        font-weight:normal;
+}
+/* color for links*/
+a { color: rgb(72, 38, 104);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: rgb(60, 60, 221);
+}
+.resumeheading {
+    font-weight: bold;
+    font-style: normal;
+}
+.bold  {
+    font-weight:bold;
+}
+
+.underlining {
+    text-decoration: underline;
+}
+
+/*background color for homepage*/
+.homebg {
+    background-image: url('images/purple\ sky.jpg');
+    background-size:cover;
+    
+}
+
+/*background color for about me page*/
+.homebg2 {
+    background-color: rgb(220, 204, 233);
+
+}
+
+.fontstyle {
+    font-style: italic;
+}
+
+.center{
+    display: block ;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 50% ;
+}
+
+.right {
+    box-align : right;
+}
